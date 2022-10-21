@@ -36,3 +36,29 @@ lista[1] = "Cazadora"
 print(lista)
 del lista[0]
 print(lista)
+
+#5. Uso del operador *. permite concatenar uan lista con ellas misma un numero finito de veces.
+lista = ["Camiseta", "Pantalon", "Zapatillas"]
+print(lista)
+lista_resultado =lista* 3
+print(lista_resultado)
+
+# 6. Creacin de lsitas como elementos de listas y acceso a dicho elemento .
+print("--------Ejercicio 6")
+lista =["camiseta", ["calcetines", "Cazadores"],"Zapatos"]
+print (lista[0])
+print (lista[1])
+print (lista[2])
+print (lista[1][0])
+print (lista[1][1])
+
+# 7. Extraer uan porcion de las listas en una lista nueva.
+print("-------Ejercicio 7-------")
+listas=[1,2,3,4,5,6,7,8,9]
+print(listas)
+listal1 =listas[3:7]
+print(lista1)
+lista2 =lista[:5]
+print(lista2)
+lista3 = lista[6:]
+print(lista3)
